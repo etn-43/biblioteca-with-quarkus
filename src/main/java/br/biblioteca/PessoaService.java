@@ -12,4 +12,8 @@ public class PessoaService {
     public List<Pessoa> obter() {
         return dao.obter();
     }
+
+    public Pessoa adicionar(Pessoa p) {
+        return dao.adicionar(p);
+    }
 }
