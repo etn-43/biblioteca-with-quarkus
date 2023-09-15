@@ -1,2 +1,6 @@
-# biblioteca-with-quarkus
-Projeto utilizando Quarkus para a simulação de microsserviços com a tematica de biblioteca. 
+#Biblioteca 
+
+A funcionalidade da aplicação é criar o controle de Biblioteca com Livro, Empréstimo e Pessoas
+
+Essa aplicação não possui um banco, tudo é salvo localmente.
+O objetivo deste projeto é a utilização de Cliente REST para acesso a Serviço REST.
