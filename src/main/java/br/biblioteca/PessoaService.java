@@ -9,11 +9,11 @@ import java.util.List;
 public class PessoaService {
     @Inject
     PessoaDao dao;
-    public List<Pessoa> obter() {
-        return dao.obter();
+    public List<Pessoa> obterPessoas() {
+        return dao.obterPessoas();
     }
 
-    public Pessoa adicionar(Pessoa p) {
-        return dao.adicionar(p);
+    public Pessoa adicionarPessoas(Pessoa p) {
+        return dao.adicionarPessoas(p);
     }
 }

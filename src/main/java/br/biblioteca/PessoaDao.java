@@ -16,11 +16,11 @@ public class PessoaDao {
         p.setNome("Joaquin");
         lista.add(p);
     }
-    public List<Pessoa> obter() {
+    public List<Pessoa> obterPessoas() {
         return lista;
     }
 
-    public Pessoa adicionar(Pessoa p) {
+    public Pessoa adicionarPessoas(Pessoa p) {
         id += 1;
         p.setId(id);
         lista.add(p);

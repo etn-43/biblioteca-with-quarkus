@@ -10,7 +10,8 @@ public class LivroService implements LivroRestClient {
     LivroDao dao;
 
     @Override
-    public List<Livro> obter() {
-        return dao.obter();
+    public List<Livro> obterLivros() {
+        return dao.obterLivros();
     }
+
 }

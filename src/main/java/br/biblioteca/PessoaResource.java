@@ -14,14 +14,24 @@ public class PessoaResource {
     @Inject
     PessoaService service;
 
+    @Inject
+    EmprestimoService emprestimoService;
+
     @Path("/pessoas")
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public List<Pessoa> obterPessoas(){ return service.obter(); }
+    public List<Pessoa> obterPessoas(){ return service.obterPessoas(); }
 
     @Path("/pessoa")
     @POST
     @Produces(MediaType.APPLICATION_JSON)
-    public Pessoa adicionarPessoa(Pessoa p){ return service.adicionar(p); }
+    public Pessoa adicionarPessoa(Pessoa p){ return service.adicionarPessoas(p); }
+
+    @Path("/emprestimo")
+    @POST
+    @Produces(MediaType.APPLICATION_JSON)
+    public String realizarEmprestimo(Emprestimo e){
+        return emprestimoService.emprestimoLivro(e);
+    }
 
 }

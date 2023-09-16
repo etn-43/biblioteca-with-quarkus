@@ -17,7 +17,9 @@ public class LivroDao {
         l.setDisponiveis(3);
         lista.add(l);
     }
-    public List<Livro> obter() {
+    public List<Livro> obterLivros() {
         return lista;
     }
+
+
 }
