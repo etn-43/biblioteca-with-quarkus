@@ -1,5 +1,5 @@
 package br.biblioteca;
-import br.biblioteca.client.Livro;
+import br.biblioteca.client.LivroDto;
 import br.biblioteca.client.LivroRestClient;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
@@ -18,15 +18,18 @@ public class EmprestimoService {
     LivroRestClient livroRestClient;
 
     public  String emprestimoLivro(Emprestimo e){
-        List<Livro> todosLivros = livroRestClient.obterLivros();
-        for(Livro livro : todosLivros){
+        List<LivroDto> todosLivros = livroRestClient.obterLivros();
+        for(LivroDto livro : todosLivros){
             if(livro.getTitulo().matches(e.getLivro())){
                 if(Integer.parseInt(e.getQuantidadeEmprestada()) > livro.getDisponiveis()){
                     return "Quantidade do livro "+e.getLivro()+" esgotada, no momento possuimos somente "+livro.getDisponiveis();
                 }
                 if(validaPessoa(e.getPessoa(),e.getLivro())){
-                    livro.setDisponiveis(livro.getDisponiveis()-Integer.parseInt(e.getQuantidadeEmprestada()));
-                    return e.getLivro();
+                    int quantidadeDisponivel = livro.getDisponiveis();
+                    quantidadeDisponivel -= Integer.parseInt(e.getQuantidadeEmprestada());
+                    livro.setDisponiveis(quantidadeDisponivel);
+                    livroRestClient.atualizarLivro(livro);
+                    return e.getLivro()+" foi alugado e restam "+livro.getDisponiveis();
                 }
                 return "Pessoa "+e.getPessoa()+" não encontrada na base de dados";
             }
@@ -38,7 +41,6 @@ public class EmprestimoService {
         List<Pessoa> pessoasCadastradas = pessoaDao.obterPessoas();
         for(Pessoa p : pessoasCadastradas){
             if(p.getNome().matches(pessoa)){
-                p.getLivrosAlugados().add(livroDaPessoa);
                 return true;
             }
         }

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1c093883-84b3-42d9-a735-6fe5ce3f4138" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/livros/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livros/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livros/.mvn/wrapper/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livros/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livros/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livros/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livros/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livros/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livros/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livros/src/main/docker/Dockerfile.jvm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livros/src/main/docker/Dockerfile.legacy-jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livros/src/main/docker/Dockerfile.native" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livros/src/main/docker/Dockerfile.native-micro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livros/src/main/java/br/livros/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livros/src/main/java/br/livros/LivroDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livros/src/main/java/br/livros/LivroRestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livros/src/main/java/br/livros/LivroService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livros/src/main/resources/META-INF/resources/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/livros/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/.mvn/wrapper/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/src/main/docker/Dockerfile.jvm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/src/main/docker/Dockerfile.legacy-jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/src/main/docker/Dockerfile.native" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/src/main/docker/Dockerfile.native-micro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/src/main/java/br/biblioteca/Emprestimo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/src/main/java/br/biblioteca/EmprestimoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/src/main/java/br/biblioteca/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/src/main/java/br/biblioteca/PessoaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/src/main/java/br/biblioteca/PessoaResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/src/main/java/br/biblioteca/PessoaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/src/main/resources/META-INF/resources/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoas/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/Dockerfile.jvm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/Dockerfile.legacy-jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/Dockerfile.native" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/Dockerfile.native-micro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/biblioteca/Emprestimo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/biblioteca/EmprestimoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/biblioteca/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/biblioteca/PessoaDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/biblioteca/PessoaResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/biblioteca/PessoaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/biblioteca/client/Livro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/biblioteca/client/LivroDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/biblioteca/client/LivroRestClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/biblioteca/client/LivroService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2VRfBrFG0NhLTNZqZRBWogNOrTn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Pichau/Downloads/vendas-service_v2/vendas-service&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pichau\Desktop\3-biblioteca\biblioteca-with-quarkus\livros\src\main\java\br\livros" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn clean package" />
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c093883-84b3-42d9-a735-6fe5ce3f4138" name="Changes" comment="" />
+      <created>1694803681068</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694803681068</updated>
+    </task>
+    <servers />
+  </component>
+</project>

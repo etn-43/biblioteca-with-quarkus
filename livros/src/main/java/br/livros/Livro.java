@@ -1,4 +1,4 @@
-package br.biblioteca.client;
+package br.livros;
 
 public class Livro {
     private int id;

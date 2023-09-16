@@ -32,13 +32,4 @@ public class Pessoa {
         this.telefone = telefone;
     }
 
-    public List<String> getLivrosAlugados() {
-        return livrosAlugados;
-    }
-
-    public void setLivrosAlugados(List<String> livrosAlugados) {
-        this.livrosAlugados = livrosAlugados;
-    }
-
-    private List<String> livrosAlugados;
 }

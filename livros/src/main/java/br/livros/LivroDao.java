@@ -1,18 +1,16 @@
-package br.biblioteca.client;
-
+package br.livros;
 import jakarta.enterprise.context.ApplicationScoped;
-
 import java.util.ArrayList;
 import java.util.List;
 
 @ApplicationScoped
 public class LivroDao {
-    private List<Livro> lista = new ArrayList<>();
+    public List<Livro> lista = new ArrayList<>();
 
-    LivroDao(){
+    public LivroDao(){
         Livro l = new Livro();
         l.setId(0);
-        l.setTitulo("Codigos em java");
+        l.setTitulo("Codigos em javascript");
         l.setAno(2020);
         l.setDisponiveis(3);
         lista.add(l);
@@ -21,5 +19,7 @@ public class LivroDao {
         return lista;
     }
 
-
+    public String atualizarLivro() {
+        return "Livro não encontrado";
+    }
 }
